@@ -1,20 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link rel="shortcut icon" href="./asset/images/icons/motorcycle-icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/bootstrap.min.css">
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Biker Zone</title>
+        <link rel="shortcut icon" href="./asset/images/icons/bike-zone.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./style/bootstrap.css" />
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+    <body class="container">
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand fw-bold fs-2" href="#">Bike Dekho</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Shop</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">News</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+						<button class="ms-5 px-5 py-3 fs-5 fw-semibold btn bg-danger bg-gradient text-white" type="submit">
+							Login
+						</button>
+					</div>
+				</div>
+			</nav>
 
+			<!-- Banner Slider -->
+			<div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 rounded px-5 py-4 mt-5">
+				<div class="carousel-inner">
+					<div class="carousel-item active p-3">
+						<div class="row">
+							<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+								<div>
+									<h1 class="fw-bold display-3">Ride-on R15 V4 with Smile</h1>
+									<p class="">Ride Yamaha R15 Version-4 with a smile and cut thousands of happy miles!</p>
+									<button class="btn bg-danger bg-gradient text-white px-5 py-3 fs-5 fw-semibold ">Purchase</button>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<img src="./asset/images/bike-8.png" class="d-block w-100 h-90" alt="Bike">
+							</div>
+						</div>
+					</div>
 
+					<div class="carousel-item p-3">
+						<div class="row">
+							<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+								<div>
+									<h1 class="fw-bold display-3">Ducati Monster V21L with Smile</h1>
+									<p class="">Ducati Monster V21L with a smile and cut thousands of happy miles!</p>
+									<button class="btn bg-danger bg-gradient text-white px-5 py-3 fs-5 fw-semibold ">Purchase</button>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<img src="./asset/images/bike-6.png" class="d-block w-100 h-90" alt="Bike">
+							</div>
+						</div>
+					</div>
 
-    <!-- Bootstrap JS -->
-    <script src="./js/bootstrap.min.js"></script>
-</body>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+								<div>
+									<h1 class="fw-bold display-3">Kawasaki Ninja Z900RS Cafe with Smile</h1>
+									<p class="">Kawasaki Ninja Z900RS Cafe with smile and cut thousands of happy miles!</p>
+									<button class="btn bg-danger bg-gradient text-white px-5 py-3 fs-5 fw-semibold ">Purchase</button>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<img src="./asset/images/bike-7.png" class="d-block w-100 h-90" alt="Bike">
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon bz-icon-color" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				<span class="carousel-control-next-icon bz-icon-color" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</header>
+
+		<!-- Bootstrap JS -->
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
 </html>
