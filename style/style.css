@@ -23,4 +23,13 @@ body {
 }
 
 
-
+@media screen and (max-width: 576px) {
+    .bz-footer-featured {
+        flex-direction: column !important;
+        align-items: start;
+    }
+    
+    .bz-download {
+        flex-direction: column;
+    }
+}
