@@ -9,3 +9,18 @@ body {
     background-color: #ffc8dd;
     border-radius: 5px;
 }
+
+.bz-button-color {
+    color: #e76f51;
+    border: 1px solid #e76f51;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.bz-button-color:hover {
+    color: #ffffff;
+    background-color: #e76f51;
+}
+
+
+

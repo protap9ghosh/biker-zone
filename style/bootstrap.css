@@ -61,10 +61,7 @@
   --bs-success-bg-subtle: #d1e7dd;
   --bs-info-bg-subtle: #cff4fc;
   --bs-warning-bg-subtle: #fff3cd;
-  /* Bike zone project used this color */
-  /* --bs-danger-bg-subtle: #e76f511a; */
-  
-  /* Bootstrap original color */
+  --bs-danger-bg-subtle: #e76f511a;
   --bs-danger-bg-subtle: #f8d7da;
   --bs-light-bg-subtle: #fcfcfd;
   --bs-dark-bg-subtle: #ced4da;
